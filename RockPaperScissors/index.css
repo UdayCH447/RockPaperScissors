@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two:ital,wght@1,700&family=Moon+Dance&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #00ABE1;
+}
+
+header{
+    background-color: blueviolet;
+    text-align: center;
+    padding: 20px 0px;
+    font-family: 'Moon Dance', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    color: #49019b;
+ 
+}
+.score-board{
+    text-align: center;
+    border: 4px solid blueviolet;
+    width: 250px;
+    margin: 25px auto;
+    padding: 50px;
+    color: aliceblue;
+    font-size: 50px;
+    font-family:  'Lobster', cursive;
+    position: relative;
+    border-color: #6e03ac;
+}
+
+.group{
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
+    margin: 50px 20px;
+}
+
+#human{
+    float: left;
+    padding: 40px;
+}
+
+.score-board{
+    float: left;
+    margin: auto;
+}
+
+#bot{
+    float: right;
+    padding: 40px;
+}
+
+.badge{
+    background-color: rebeccapurple;
+    padding: 2px 10px;
+    margin: 10px;
+}
+ #user-label{
+    position: absolute;
+    font-size: 30px;
+    top: 45px;
+    left: -45px;
+    
+ }
+ #computer-label{
+    position: absolute;
+    font-size: 30px;
+    top: 45px;
+    right: -45px;
+}
+
+.result{
+    text-align: center;
+    font-size: 20px;
+    color: #49019b;
+    font-weight: bold;
+}
+
+
+.choices{
+    text-align: center;
+    margin-top: 30px;
+    padding: 0px 20px;
+
+}
+
+.choice{
+    display: inline-block;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border: 3px solid #6e03ac;
+    border-radius: 50%;
+}
+
+.choice:hover{
+    cursor: pointer;
+    background-color: #49019b;
+    transition:all 0.2s linear;
+}
+
+.action{
+    text-align: center;
+    margin: 35px;
+    font-weight: bolder;
+    font-size: 30px;
+    color:#6e03ac;
+    font-family:  'Lobster Two', cursive;
+}
+
+button{
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    padding: 8px;
+    margin: 5px;
+    color: #49019b;
+    font-size: 20px;
+    background-color: rgb(15, 110, 199);
+}
+
+button:hover{
+    background-color: blueviolet;
+    color: #00ABE1;
+}
+
+.green{
+    border: 3px solid greenyellow;
+    box-shadow: 0px 0px 10px green;
+}
+
+.red{
+    border: 3px solid red;
+    box-shadow: 0 0 10px red;
+}
+
+.grey{
+    border: 3px solid rgb(212, 148, 29);
+    box-shadow: 0 0 10px orange;
+}

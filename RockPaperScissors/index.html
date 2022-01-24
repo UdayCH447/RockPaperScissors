@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper scissors</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two:ital,wght@1,700&family=Moon+Dance&display=swap" rel="stylesheet"> 
+    <script>
+        function reload(){
+            location.reload();
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1> Rock Paper Scissors</h1>
+    </header>
+    <div class="group">
+        <span id="human" ><img src="images\man.png" alt=""></span>
+        <div class="score-board">
+            <div id="user-label" class="badge">user</div>
+            <div id="computer-label" class="badge">comp</div>
+            <span id="user-s">0</span>:<span id="computer-s">0</span>
+        </div>
+        <span id="bot"><img src="images\robot.png" alt=""> </span>
+    </div>
+    <div class="result">
+        paper wins over rock-scissors wins over paper-rock wins over scissors
+    </div>
+    <div class="choices">
+        <div class="choice" id="r">
+            <img src="images\rock.png" alt="error">
+        </div>
+        <div class="choice" id="p">
+            <img src="images\paper.png" alt="error">
+        </div>
+        <div class="choice" id="s">
+            <img src="images\scissors.png" alt="error">
+        </div>
+    </div>
+    <div class="action">ENTER YOUR  CHOICE!!</div>
+    <div class="btn">
+        <button onclick="reload();">Restart</button>
+    </div>
+    
+</body>
+<script src="index.js"></script>
+</html>
